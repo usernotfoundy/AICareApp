@@ -1,20 +1,33 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello Emz! Welcome to React ^^</Text>
+      <Image source={require('./assets/AICareAppLogo.png')} style={styles.setImage} />
+      <Text style={styles.setTextColor}>CARE</Text>
       <StatusBar style="auto" />
     </View>
+
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ecfdf5',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  setTextColor: {
+    color: '#065F46',
+    fontSize: 50,
+    margin: 0,
+    padding: 0,
+    fontWeight: 700,
+  },
+  setImage: {
+    height: 200,
+    width: 200,
   },
 });
