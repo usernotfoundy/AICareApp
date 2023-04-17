@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     fontSize: 50,
     margin: 0,
     padding: 0,
-    fontWeight: 700,
+    fontWeight: 900,
   },
   setImage: {
     height: 200,
