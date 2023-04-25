@@ -5,7 +5,7 @@ import { StyleSheet, View, Text, SafeAreaView, Image } from 'react-native';
 export default function Home() {
     return (
         <SafeAreaView style={styles.container}>
-
+            <Text>Hi!</Text>
         </SafeAreaView>
     );
 }
